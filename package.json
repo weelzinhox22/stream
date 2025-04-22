@@ -1,0 +1,25 @@
+{
+  "name": "welplaytv",
+  "version": "1.0.0",
+  "description": "A React app for loading and playing M3U playlists",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server/index.js",
+    "client": "cd client && npm start",
+    "install-all": "npm install && cd client && npm install",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "m3u",
+    "playlist",
+    "react",
+    "iptv"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.9"
+  }
+}
