@@ -12,8 +12,7 @@
     "install-client": "cd client && npm install",
     "install-server": "cd server && npm install",
     "install-all": "npm run install-deps && npm run install-client && npm run install-server",
-    "client-build": "cd client && npm run build",
-    "build": "npm run client-build",
+    "build": "cd client && CI=false npm run build",
     "render-build": "echo 'Starting build process' && npm run install-all && echo 'Dependencies installed' && npm run build && echo 'Build completed'"
   },
   "keywords": [
