@@ -20,6 +20,7 @@
   "license": "ISC",
   "dependencies": {
     "concurrently": "^8.2.2",
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9",
+    "swiper": "^11.2.6"
   }
 }
